@@ -2,7 +2,9 @@ language: csharp
 mono: none
 dotnet: 3.0.100-1
 dist: xenial
-
+arch:
+    - amd64
+    - arm64
 branches:
   only:
     master
